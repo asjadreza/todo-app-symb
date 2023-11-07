@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(36, 18, 31);
+
+}
+
+h1 {
+  color: white;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  margin-top: 28px;
+}
+.add-task {
+  margin-top: 20px;
+}
+
+input {
+  width: 50%;
+  font-size: 1.65rem;
+  padding: 0.5rem;
+  background: #2a1752;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 5px rgb(79, 60, 161);
+  height: 40px;
+}
+
+@media (min-width: 400px) and (max-width: 1110px) {
+  .add-task input {
+    width: 70%;
+  }
+}
+
+input:hover {
+  box-shadow: 0 0 5px rgb(108, 54, 255);
+}
+
+.dropdown-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 18px;
+  top: 19px;
+}
+
+
+.add-task select {
+  width: 9%;
+  font-size: 1.66rem;
+  padding: 0.3rem;
+  background: #2a1752;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 5px rgb(79, 60, 161);
+}
+
+@media (min-width: 350px) and (max-width: 1110px) {
+  .add-task select {
+    width: 25%;
+  }
+}
+
+
+.add-task select:hover {
+  box-shadow: 0 0 5px rgb(79, 60, 161);
+}
+
+.add-task select option {
+  font-size: 19px;
+  padding: 0.5rem;
+  background: #020d9f;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.add-task button {
+  width: 3%;
+  font-size: 1.5rem;
+  padding: 0.3rem;
+  background: #2a1752;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 5px rgb(79, 60, 161);
+}
+
+@media (min-width: 350px) and (max-width: 1110px) {
+  .add-task button {
+    width: 9%;
+  }
+}
+
+
+
+
+.add-task button:hover {
+  box-shadow: 0 0 5px rgb(108, 54, 255);
+  font-size: 1.75rem;
+  padding: 0.2rem;
+}
+
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  width: 51%;
+  font-size: 1.8rem;
+  background-color: #2a1752;
+  border: none;
+  padding: 10px;
+  margin: 5px 0;
+  display: flex;
+  outline: none;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: relative;
+  top: 42px;
+  box-shadow: 0 0 5px rgb(79, 60, 161);
+  border-radius: 12px;
+}
+@media (min-width: 350px) and (max-width: 850px) {
+  li {
+    width: 90%;
+    height: 43px;
+  }
+}
+
+li:hover {
+  box-shadow: 0 0 5px rgb(108, 54, 255);
+  height: 40px;
+}
+
+
+#taskList li span {
+  font-size: 30px;
+}
+
+
+li select {
+  margin-right: 10px;
+  background: #a521b9;
+  color: white;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px rgb(79, 66, 181);
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  height: 27px;
+}
+
+@media (min-width: 350px) and (max-width: 850px) {
+  li select{
+    width: 26%;
+    
+  }
+}
+
+button.delete {
+  cursor: pointer;
+  background: #a521b9;
+  color: white;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px rgb(79, 66, 181);
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  border-radius: 8px;
+  height: 35px;
+  width: rre;
+  width: 6rem;
+  cursor: pointer;
+}
+
+button.delete:hover {
+  box-shadow: 0 0 5px rgb(108, 54, 255);
+  height: 37px;
+  font-size: 20px;
+}

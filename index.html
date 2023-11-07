@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <script src="https://kit.fontawesome.com/7cae8092cb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1 id="todo-heading">TODO APP</h1>
+    <div class="add-task">
+        <input type="text" id="taskInput" placeholder="  Add a task...">
+        <div class="dropdown-button">
+            <select id="category">
+                <option value="Personal">Personal</option>
+                <option value="Books to read">Books to read</option>
+                <option value="To Buy">To Buy</option>
+            </select>
+            <button id="addTask">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+    </div>
+    <ul id="taskList"></ul>
+    <script src="./app.js"></script>
+</body>
+
+</html>
